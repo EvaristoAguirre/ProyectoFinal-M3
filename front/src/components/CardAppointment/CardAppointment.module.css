@@ -1,0 +1,34 @@
+.container {
+    background-color: lightblue;
+    margin: 10px;
+    font-size: 15px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 50px; */
+    /* align-content: center;
+    justify-content: space-around; */
+    border-radius: 3px;
+    color: #333;
+}
+
+.span {
+    margin: 0px 20px;
+    /* align-content: right; */
+}
+
+.active {
+    color: green;
+    cursor: pointer;
+}
+
+.active:hover {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.cancelled {
+    color: red
+}

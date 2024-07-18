@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #17388F; */
+    padding: 10px 20px;
+    color: white;
+    /* width:1000px; */
+}
+
+.navbar span {
+    cursor: pointer;
+}
+
+/* Estilos para el LOGO */
+.navbarLogo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color : white;
+}
+
+/* Estilos para los enlaces de navegación */
+.navbarLinks {
+    margin-right: 1.1rem;
+    text-decoration: none;
+    color : white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.navbarLinks{
+    transition: color 0.3s ease;
+}
+
+.navbarLinks:hover {
+   color: lightblue;
+}
